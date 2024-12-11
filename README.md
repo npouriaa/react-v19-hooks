@@ -1,8 +1,7 @@
-# React + Vite
+useActionState example : src/components/UpdateTitle.jsx
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+useOptimistic example : src/components/Optimistic.jsx
 
-Currently, two official plugins are available:
+useTransition update example : src/components/ShowData.jsx
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+useFormStatus example : src/components/useFormStatus

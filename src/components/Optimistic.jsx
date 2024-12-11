@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useState, useOptimistic, useRef } from "react";
 
 const Thread = ({ messages, sendMessage }) => {
