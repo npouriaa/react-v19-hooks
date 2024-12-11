@@ -10,15 +10,15 @@ const ShowData = () => {
   const handleClick = () => {
     startTransition(async () => {
       const response = await axios
-        .get("https://jsonplaceholder.typicode.com/posts")
+        .get("https://jsonplaceholder.typicode.com/posts/1")
         .catch((err) => {
           console.log(err);
           setError(err.message);
         });
 
       if (response) {
-        setData(response.data[0]);
-        console.log(response.data[0]);
+        setData(response.data);
+        console.log(response.data);
       }
     });
   };

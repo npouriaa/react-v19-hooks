@@ -1,4 +1,5 @@
 import "./App.css";
+import Form from "./components/useFormStatus/Form";
 import ShowData from "./components/ShowData";
 import UpdateTitle from "./components/UpdateTitle";
 
@@ -7,6 +8,7 @@ const App = () => {
     <div className="container">
       <UpdateTitle />
       <ShowData />
+      <Form />
     </div>
   );
 };

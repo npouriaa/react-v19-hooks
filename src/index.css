@@ -18,8 +18,9 @@ body {
 }
 
 .form-con {
+  margin-top: 1rem;
   display: flex;
-  flex-direction: column;
+  align-items: start;
 }
 
 .content-con {
