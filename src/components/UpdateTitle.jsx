@@ -47,7 +47,7 @@ const UpdateTitle = () => {
         </div>
         {/* In react 19, form element action attribute also accepts function*/}
         <form action={submitAction}>
-          <input required type="text" name="title" placeholder="" />
+          <input required type="text" name="title" placeholder="Enter title..." />
           <button type="submit" disabled={isPending}>
             Update
           </button>
