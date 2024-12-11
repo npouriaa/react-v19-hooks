@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState, useTransition } from "react";
 
 const ShowData = () => {
+  // using useTransition to handle pending states
   const [data, setData] = useState();
   const [error, setError] = useState("");
   const [isPending, startTransition] = useTransition();
@@ -16,7 +17,7 @@ const ShowData = () => {
         });
 
       if (response) {
-        setData(response.data[0])
+        setData(response.data[0]);
         console.log(response.data[0]);
       }
     });
